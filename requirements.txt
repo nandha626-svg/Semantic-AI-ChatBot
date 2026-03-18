@@ -1,0 +1,18 @@
+# Core NLP & ML
+sentence-transformers==2.7.0
+transformers==4.40.0
+torch==2.2.2
+
+# OpenAI
+openai==1.30.0
+
+# Data
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+
+# UI
+streamlit==1.35.0
+
+# Environment
+python-dotenv==1.0.1
