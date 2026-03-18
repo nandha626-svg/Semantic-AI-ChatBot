@@ -1,4 +1,4 @@
-# 🤖 Semantic AI Customer Support Chatbot
+# Semantic AI Customer Support Chatbot
 
 > An NLP-powered chatbot that understands customer queries using semantic similarity — no predefined intent labels required.
 
@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Traditional customer support chatbots rely on rigid, rule-based intent classification. This project replaces that approach with a fully semantic pipeline that:
 
@@ -20,19 +20,19 @@ No predefined labels. No rigid rules. Just semantics.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
-- ✅ Eliminate dependence on predefined intent labels
-- ✅ Use **Sentence-BERT (all-mpnet-base-v2)** for semantic understanding
-- ✅ Retrieve similar queries using **cosine similarity**
-- ✅ Detect sentiment (positive/negative) using **DistilBERT SST-2**
-- ✅ Generate context-aware replies using **GPT-4o-Mini**
-- ✅ Build a clean, interactive UI for real-time user interaction
-- ✅ Ensure scalability, modularity, and academic clarity
+-  Eliminate dependence on predefined intent labels
+-  Use **Sentence-BERT (all-mpnet-base-v2)** for semantic understanding
+-  Retrieve similar queries using **cosine similarity**
+-  Detect sentiment (positive/negative) using **DistilBERT SST-2**
+-  Generate context-aware replies using **GPT-4o-Mini**
+-  Build a clean, interactive UI for real-time user interaction
+-  Ensure scalability, modularity, and academic clarity
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 
 The system consists of four main components:
 
@@ -68,7 +68,7 @@ Streamlit Chat UI
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 semantic-ai-chatbot/
@@ -113,7 +113,7 @@ streamlit run app.py
 
 ---
 
-## 🗃️ Dataset
+##  Dataset
 
 The dataset contains real-world customer service interactions including:
 
@@ -149,36 +149,36 @@ GPT receives:
 It returns a natural, grammatically correct, emotionally appropriate reply.
 
 ### 4. Streamlit UI
-- 🔵 Blue iMessage-style bubbles for user messages
-- ⚪ Grey bubbles for bot responses
-- 🏷️ Intent + sentiment badges on each message
-- 🕐 Timestamps for every exchange
+-  Blue iMessage-style bubbles for user messages
+-  Grey bubbles for bot responses
+-  Intent + sentiment badges on each message
+-  Timestamps for every exchange
 
 ---
 
-## 📊 Results
+##  Results
 
 | Capability | Status |
 |---|---|
-| Understands queries without intent labels | ✅ |
-| Real-time sentiment detection | ✅ |
-| Contextually accurate response generation | ✅ |
-| Handles multiple categories (refunds, delivery, account, etc.) | ✅ |
-| Clean and professional chat interface | ✅ |
+| Understands queries without intent labels  |
+| Real-time sentiment detection |
+| Contextually accurate response generation |
+| Handles multiple categories (refunds, delivery, account, etc.) |
+| Clean and professional chat interface |
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
-- 🔁 Multi-turn conversation memory
-- 😤 Emotion classification (joy, frustration, anger)
-- 🗂️ Topic clustering
-- 🎯 Domain-specific fine-tuning
-- 📚 RAG-based knowledge grounding
+-  Multi-turn conversation memory
+-  Emotion classification (joy, frustration, anger)
+-  Topic clustering
+-  Domain-specific fine-tuning
+-  RAG-based knowledge grounding
 
 ---
 
-## 📚 References
+##  References
 
 1. **Sentence-BERT** — Reimers & Gurevych (2019). [arxiv.org/abs/1908.10084](https://arxiv.org/abs/1908.10084)
 2. **Attention Is All You Need** — Vaswani et al. (2017). [arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762)
@@ -190,7 +190,7 @@ It returns a natural, grammatically correct, emotionally appropriate reply.
 
 ---
 
-## 👥 Team Members
+##  Team Members
 
 | Name |
 |------|
